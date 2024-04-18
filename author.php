@@ -8,7 +8,7 @@
     <center><font size=7><b>author您好，歡迎進入論文投稿網頁 </b></font></center>
 </body>
 
-<form action="showreview.php" method="post">
+<form action="showpaper.php" method="post">
 
     論文標題：<input type="text" name="sTitle" value=""  required></br>
     作者姓名：<input type="text" name="sName" value=""  required></br>
