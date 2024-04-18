@@ -19,7 +19,7 @@ $character=$_POST["character"];
 if($character=="chair" && $aId==$uId && $aPwd==$uPwd){
     $_SESSION["check"]="Yes";
     setcookie("userName",$aId);
-    header("Location:successchair.php");
+    header("Location:chair.php");
 }else if($character=="reviewer" && $bId==$uId && $bPwd==$uPwd){
     $_SESSION["check"]="Yes";
     setcookie("userName",$bId);
